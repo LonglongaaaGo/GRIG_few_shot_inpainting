@@ -21,12 +21,23 @@ pip install -r grig_requirements.txt
 
 ##### What we have released
 - [x] Training and testing codes
-- [] Pre-trained models
+- [x] Pre-trained models 
+  - Models on few-shot datasets (we encourage users can train the model by themselves because it will not take too much time.)
+  - Models on large-scale datasets (coming soon...)  
+
+##### Project benefits
+- [x] We are the first deep-learning-based few-shot image inpainting method.
+- [x] Our codes can train a GPU with less than 12GB memory with a batch size of 8.
+- [x] Our model converges very fast, especially on few-shot datasets.
 
 ## Training
 - Prepare your small-scale datasets (download [10-few-shot_datasets](https://drive.google.com/file/d/1fb7xRzGL5YMieZl-y7Qr5qs3MU9tfIuk/view?usp=drive_link))
+  - Even though that we claimed in our paper that we trained each dataset with 400,000 iterations. Our model actually converges very fast.
+  - For most datasets you will find maybe 20,000 or 50,000 iterations are good enough to train a model.
+  - We still encourage users can try various iterations to see what can be found in our GRIG.
 - Prepare your large-scale datasets (download [FFHQ](https://github.com/NVlabs/ffhq-dataset), [CelebA-HQ](https://github.com/tkarras/progressive_growing_of_gans), [Paris Street View](https://github.com/pathak22/context-encoder/issues/24), and [Places365](https://paperswithcode.com/dataset/places365))
-- The folder structure of training and testing data are shown below:  
+  - We recommend training 1000,000 iterations on FFHQ, CelebA-HQ, and Paris Street View datasets, while 2000,000 on the Places365 dataset.
+- The folder structure of training and testing data is shown below:  
 ```
 root/
     test/
@@ -49,7 +60,7 @@ root/
 ```
 - path: training path
 - test_path: testing data path
-- im_size: image size for trraining and testing
+- im_size: image size for training and testing
 - eval_interval: the frequency for testing 
 - iter: total training iterations
 - efficient_net: ckpt path of the efficient_net
@@ -77,7 +88,7 @@ root/
 > python test.py test.py --test_path /root/test  --ckpt_path ./checkpoint/...
 --mask_type Center
 
-- After finished the testing, you can find output images in the ```./eval``` and ```./view``` folders
+- After finishing the testing, you can find output images in the ```./eval``` and ```./view``` folders
 - For more functional options, please view the codes.
 
 ## Bibtex
@@ -93,6 +104,10 @@ root/
     }
   ```
 ## Acknowledgements
+Closely related projects:
+[FastGAN](https://github.com/odegeasslbc/FastGAN-pytorch),
+[ProjectedGAN](https://github.com/autonomousvision/projected-gan), and [Restormer](https://github.com/swz30/Restormer).
+
 Codes for Learned Perceptual Image Patch Similarity, LPIPS came from https://github.com/richzhang/PerceptualSimilarity
 
 To match FID scores more closely to tensorflow official implementations, I have used FID Inception V3 implementations in https://github.com/mseitzer/pytorch-fid
