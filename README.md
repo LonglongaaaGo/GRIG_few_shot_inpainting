@@ -22,17 +22,17 @@ pip install -r grig_requirements.txt
 ##### What we have released
 - [x] Training and testing codes
 - [x] Pre-trained models 
-  - Models on few-shot datasets (we encourage users can train the model by themselves because it will not take too much time.)
+  - Models on few-shot datasets (we encourage users can train the model by themselves because it will not take too long.)
   - Models on large-scale datasets (coming soon...)  
 
 ##### Project benefits
 - [x] We are the first deep-learning-based few-shot image inpainting method.
-- [x] Our codes can train a GPU with less than 12GB memory with a batch size of 8.
+- [x] Our codes can train using a batch size of 8 on a GPU with less than 12GB memory.
 - [x] Our model converges very fast, especially on few-shot datasets.
 
 ## Training
 - Prepare your small-scale datasets (download [10-few-shot_datasets](https://drive.google.com/file/d/1fb7xRzGL5YMieZl-y7Qr5qs3MU9tfIuk/view?usp=drive_link))
-  - Even though that we claimed in our paper that we trained each dataset with 400,000 iterations. Our model actually converges very fast.
+  - Even though we claimed in our paper that we trained each dataset with 400,000 iterations. Our model actually converges very fast.
   - For most datasets you will find maybe 20,000 or 50,000 iterations are good enough to train a model.
   - We still encourage users can try various iterations to see what can be found in our GRIG.
 - Prepare your large-scale datasets (download [FFHQ](https://github.com/NVlabs/ffhq-dataset), [CelebA-HQ](https://github.com/tkarras/progressive_growing_of_gans), [Paris Street View](https://github.com/pathak22/context-encoder/issues/24), and [Places365](https://paperswithcode.com/dataset/places365))
