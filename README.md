@@ -1,4 +1,4 @@
-# GRIG: Data-efficient generative residual image inpainting (GRIG)
+# GRIG: Data-efficient generative residual image inpainting
 Official PyTorch implementation of GRIG.
 
 [[Homepage]](https://longlongaaago.github.io/GRIG_few_shot_inpainting/)
