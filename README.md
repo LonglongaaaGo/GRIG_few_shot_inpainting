@@ -113,7 +113,7 @@ To match FID scores more closely to tensorflow official implementations, I have 
 
 ## More results
 
-| <img src="./imgs/FFHQ_test/000066_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=180 height=180 alt="Masked "> | <img src="./imgs/FFHQ_out/000066_inpaint.png" height=180 width=180 alt=" "> |
+| <img src="./imgs/FFHQ_test/000066_gt.png"  height=256 width=256 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=180 height=180 alt="Masked "> | <img src="./imgs/FFHQ_out/000066_inpaint.png" height=180 width=180 alt=" "> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="./imgs/FFHQ_test/000071_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=180 height=180 alt="Masked "> | <img src="./imgs/FFHQ_out/000071_inpaint.png" height=180 width=180 alt=" "> |
 | <img src="./imgs/CelebA-HQ_test/000002_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/CelebA_HQ_out/000002_masked.png" width=180 height=180 alt="Masked "> | <img src="./imgs/CelebA_HQ_out/000002_inpaint.png" height=180 width=180 alt=" "> |
