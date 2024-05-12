@@ -70,15 +70,6 @@ root/
 - For more functional options, please view the codes.
 
 
-| <img src="./imgs/FFHQ_test/000066_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=180 height=180 alt="Masked "> | <img src="./imgs/FFHQ_out/000066_inpaint.png" height=180 width=180 alt=" "> |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="./imgs/FFHQ_test/000071_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=180 height=180 alt="Masked "> | <img src="./imgs/FFHQ_out/000066_inpaint.png" height=180 width=180 alt=" "> |
-| <img src="./imgs/CelebA-HQ_test/000002_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/exe_guided_recovery/mask/3_mask.png" width=180 height=180 alt="Masked "> | <img src="./imgs/exe_guided_recovery/exemplar/3_exe.png" height=180 width=180 alt=" "> |<img src="./imgs/exe_guided_recovery/recover_out/3_inpaint.png" height=180 width=180 alt=" "> |
-| <img src="./imgs/CelebA-HQ_test/000020_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/exe_guided_recovery/mask/4_mask.png" width=180 height=180 alt="Masked "> | <img src="./imgs/exe_guided_recovery/exemplar/4_exe.png" height=180 width=180 alt=" "> |<img src="./imgs/exe_guided_recovery/recover_out/4_inpaint.png" height=180 width=180 alt=" "> |
-|          Ground-truth                        |                      Mask                               | Exemplar       | Inpainted  | 
-
-
-
 ## Testing 
 - [Irregular masks](https://nv-adlr.github.io/publication/partialconv-inpainting) (optional, if you would like to test on irregular masks, download Testing Set masks)
 > python test.py --test_path /root/test  --ckpt_path ./checkpoint/...
@@ -119,3 +110,13 @@ Closely related projects:
 Codes for Learned Perceptual Image Patch Similarity, LPIPS came from https://github.com/richzhang/PerceptualSimilarity
 
 To match FID scores more closely to tensorflow official implementations, I have used FID Inception V3 implementations in https://github.com/mseitzer/pytorch-fid
+
+## More results
+
+| <img src="./imgs/FFHQ_test/000066_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=180 height=180 alt="Masked "> | <img src="./imgs/FFHQ_out/000066_inpaint.png" height=180 width=180 alt=" "> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="./imgs/FFHQ_test/000071_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=180 height=180 alt="Masked "> | <img src="./imgs/FFHQ_out/000071_inpaint.png" height=180 width=180 alt=" "> |
+| <img src="./imgs/CelebA-HQ_test/000002_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/CelebA_HQ_out/000002_masked.png" width=180 height=180 alt="Masked "> | <img src="./imgs/CelebA_HQ_out/000002_inpaint.png" height=180 width=180 alt=" "> |
+| <img src="./imgs/CelebA-HQ_test/000020_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/CelebA_HQ_out/000020_masked.png" width=180 height=180 alt="Masked "> | <img src="./imgs/CelebA_HQ_out/000020_inpaint.png" height=180 width=180 alt=" "> |
+|          Ground-truth                        |                      Mask                                | Inpainted  | 
+
