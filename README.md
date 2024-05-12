@@ -23,7 +23,7 @@ pip install -r grig_requirements.txt
 - [x] Training and testing codes
 - [x] Pre-trained models 
   - Models on few-shot datasets (we encourage users can train the model by themselves because it will not take too long.)
-  - Models on large-scale datasets (coming soon...)  
+  - Models on large-scale datasets (download[large-scale-pre-trained](https://drive.google.com/drive/folders/1aEfGKuC0ozuLmkIAEF9Pa2LbBbkcf6dy?usp=sharing))  
 
 ##### Project benefits
 - [x] We are the first deep-learning-based few-shot image inpainting method.
