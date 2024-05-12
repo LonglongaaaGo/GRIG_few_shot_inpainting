@@ -23,7 +23,7 @@ pip install -r grig_requirements.txt
 - [x] Training and testing codes
 - [x] Pre-trained models 
   - Models on few-shot datasets (we encourage users can train the model by themselves because it will not take too long.)
-  - Models on large-scale datasets (download [large-scale-pre-trained](https://drive.google.com/drive/folders/1aEfGKuC0ozuLmkIAEF9Pa2LbBbkcf6dy?usp=sharing))  
+  - Models on large-scale datasets (download [large-scale-pre-trained models](https://drive.google.com/drive/folders/1aEfGKuC0ozuLmkIAEF9Pa2LbBbkcf6dy?usp=sharing))  
 
 ##### Project benefits
 - [x] We are the first deep-learning-based few-shot image inpainting method.
@@ -68,6 +68,14 @@ root/
 - During training, you can find trained ckpts (checkpoints) and intermediate trained images in  the ```./train_results/test1``` folder.
 - The evaluation results can be found in ```./eval_``` folder (of course you can change it using --eval_dir).
 - For more functional options, please view the codes.
+
+
+| <img src="./imgs/FFHQ_test/target/000066_gt.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/exe_guided_recovery/mask/1_mask.png" width=180 height=180 alt="Masked "> | <img src="./imgs/exe_guided_recovery/exemplar/1_exe.png" height=180 width=180 alt=" "> |<img src="./imgs/exe_guided_recovery/recover_out/1_inpaint.png" height=180 width=180 alt=" "> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |:----------------------------------------------------------: |
+| <img src="./imgs/exe_guided_recovery/target/2_real.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/exe_guided_recovery/mask/2_mask.png" width=180 height=180 alt="Masked "> | <img src="./imgs/exe_guided_recovery/exemplar/2_exe.png" height=180 width=180 alt=" "> |<img src="./imgs/exe_guided_recovery/recover_out/2_inpaint.png" height=180 width=180 alt=" "> |
+| <img src="./imgs/exe_guided_recovery/target/3_real.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/exe_guided_recovery/mask/3_mask.png" width=180 height=180 alt="Masked "> | <img src="./imgs/exe_guided_recovery/exemplar/3_exe.png" height=180 width=180 alt=" "> |<img src="./imgs/exe_guided_recovery/recover_out/3_inpaint.png" height=180 width=180 alt=" "> |
+| <img src="./imgs/exe_guided_recovery/target/4_real.png"  height=180 width=180 alt="Ground-truth"> | <img src="./imgs/exe_guided_recovery/mask/4_mask.png" width=180 height=180 alt="Masked "> | <img src="./imgs/exe_guided_recovery/exemplar/4_exe.png" height=180 width=180 alt=" "> |<img src="./imgs/exe_guided_recovery/recover_out/4_inpaint.png" height=180 width=180 alt=" "> |
+|          Ground-truth                        |                      Mask                               | Exemplar       | Inpainted  | 
 
 
 
