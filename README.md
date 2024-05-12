@@ -122,5 +122,5 @@ To match FID scores more closely to tensorflow official implementations, I have 
 | <img src="./imgs/PSV_test/000005_gt.png"  width=256 height=256 alt="Ground-truth"> | <img src="./imgs/PSV_out/000005_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/PSV_out/000005_inpaint.png" width=256 height=256 alt=" "> |
 | <img src="./imgs/Place365_test/000001_gt.png"  width=256 height=256 alt="Ground-truth"> | <img src="./imgs/Place365_out/000001_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/Place365_out/000001_inpaint.png" width=256 height=256 alt=" "> |
 | <img src="./imgs/Place365_test/000041_gt.png"  width=256 height=256 alt="Ground-truth"> | <img src="./imgs/Place365_out/000041_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/Place365_out/000041_inpaint.png" width=256 height=256 alt=" "> |
-|          Ground-truth                        |                      Mask                                | Inpainted  | 
+|          Ground-truth                        |                      Masked image                                | Inpainted  | 
 
