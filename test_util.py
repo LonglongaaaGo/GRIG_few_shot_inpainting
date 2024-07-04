@@ -95,16 +95,16 @@ def Reinference_v2(args,netG,test_loader,eval_dict):
                     utils.save_image(
                         g_img.add(1).mul(0.5),
                         f"{str(eval_dict)}/{str(i * args.batch_size + j).zfill(6)}_{str(get_rank())}_inpaint.png",
-                        nrow=int(1), normalize=True)
+                        nrow=int(1))
                     utils.save_image(
                         real_image_.add(1).mul(0.5),
                         f"{str(eval_dict)}/{str(i * args.batch_size + j).zfill(6)}_{str(get_rank())}_gt.png",
-                        nrow=int(1), normalize=True )
+                        nrow=int(1) )
 
                     utils.save_image(
                         im_in_.add(1).mul(0.5),
                         f"{str(eval_dict)}/{str(i * args.batch_size + j).zfill(6)}_{str(get_rank())}_mask.png",
-                        nrow=int(1), normalize=True )
+                        nrow=int(1) )
             netG.train()
     # synchronize()
     print("inference down!")
