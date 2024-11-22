@@ -1,12 +1,10 @@
 # GRIG: Data-efficient generative residual image inpainting
-Official PyTorch implementation of GRIG.
+Official PyTorch implementation of GRIG, publised on [[Computational Visual Media Journal]](https://link.springer.com/journal/41095) (IF 17.3, in press).
 
 [[Homepage]](https://longlongaaago.github.io/GRIG_few_shot_inpainting/)
 [[paper]](https://arxiv.org/abs/2304.12035)
 [[demo_youtube]](https://www.youtube.com/watch?v=czB3VAwhB0o)
 [[demo_bilibili]](https://player.bilibili.com/player.html?aid=358757940&bvid=BV13X4y1n7T8&cid=1206882830&p=1)
-
-Publised on [Computational Visual Media Journal](https://link.springer.com/journal/41095) (in press)
 
 <div style="text-align: justify"> We present a novel data-efficient generative residual image inpainting method that produces high-quality inpainting results. </div>
 
