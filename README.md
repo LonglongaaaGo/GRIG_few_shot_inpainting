@@ -115,14 +115,14 @@ To match FID scores more closely to tensorflow official implementations, I have 
 
 ## More results
 
-| <img src="./imgs/FFHQ_test/000066_gt.png"  height=256 width=256 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/FFHQ_out/000066_inpaint.png" width=256 height=256 alt=" "> |
+| <img src="./imgs/FFHQ_test/000066_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/FFHQ_out/000066_inpaint.png" width=200 height=200 alt=" "> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="./imgs/FFHQ_test/000071_gt.png"  width=256 height=256 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/FFHQ_out/000071_inpaint.png" width=256 height=256 alt=" "> |
-| <img src="./imgs/CelebA-HQ_test/000002_gt.png"  width=256 height=256 alt="Ground-truth"> | <img src="./imgs/CelebA_HQ_out/000002_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/CelebA_HQ_out/000002_inpaint.png" width=256 height=256 alt=" "> |
-| <img src="./imgs/CelebA-HQ_test/000020_gt.png"  width=256 height=256 alt="Ground-truth"> | <img src="./imgs/CelebA_HQ_out/000020_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/CelebA_HQ_out/000020_inpaint.png" width=256 height=256 alt=" "> |
-| <img src="./imgs/PSV_test/000001_gt.png"  width=256 height=256 alt="Ground-truth"> | <img src="./imgs/PSV_out/000001_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/PSV_out/000001_inpaint.png" width=256 height=256 alt=" "> |
-| <img src="./imgs/PSV_test/000005_gt.png"  width=256 height=256 alt="Ground-truth"> | <img src="./imgs/PSV_out/000005_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/PSV_out/000005_inpaint.png" width=256 height=256 alt=" "> |
-| <img src="./imgs/Place365_test/000001_gt.png"  width=256 height=256 alt="Ground-truth"> | <img src="./imgs/Place365_out/000001_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/Place365_out/000001_inpaint.png" width=256 height=256 alt=" "> |
-| <img src="./imgs/Place365_test/000041_gt.png"  width=256 height=256 alt="Ground-truth"> | <img src="./imgs/Place365_out/000041_masked.png" width=256 height=256 alt="Masked "> | <img src="./imgs/Place365_out/000041_inpaint.png" width=256 height=256 alt=" "> |
+| <img src="./imgs/FFHQ_test/000071_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/FFHQ_out/000066_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/FFHQ_out/000071_inpaint.png" width=200 height=200 alt=" "> |
+| <img src="./imgs/CelebA-HQ_test/000002_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/CelebA_HQ_out/000002_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/CelebA_HQ_out/000002_inpaint.png" width=200 height=200 alt=" "> |
+| <img src="./imgs/CelebA-HQ_test/000020_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/CelebA_HQ_out/000020_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/CelebA_HQ_out/000020_inpaint.png" width=200 height=200 alt=" "> |
+| <img src="./imgs/PSV_test/000001_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/PSV_out/000001_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/PSV_out/000001_inpaint.png" width=200 height=200 alt=" "> |
+| <img src="./imgs/PSV_test/000005_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/PSV_out/000005_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/PSV_out/000005_inpaint.png" width=200 height=200 alt=" "> |
+| <img src="./imgs/Place365_test/000001_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000001_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000001_inpaint.png" width=200 height=200 alt=" "> |
+| <img src="./imgs/Place365_test/000041_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000041_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000041_inpaint.png" width=200 height=200 alt=" "> |
 |          Ground-truth                        |                      Masked image                                | Inpainted  | 
 
