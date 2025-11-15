@@ -1,13 +1,34 @@
-# GRIG: Data-efficient generative residual image inpainting
-Official PyTorch implementation of GRIG, published on Computational Visual Media Journal (IF 17.3).
+# 🎨 GRIG: Data-efficient Generative Residual Image Inpainting (2025 CVM)
+Official PyTorch implementation of **GRIG**, published in **Computational Visual Media (IF 17.3)**.
 
-[[Computational Visual Media Journal]](https://ieeexplore.ieee.org/document/11247819)
-[[Homepage]](https://longlongaaago.github.io/GRIG_few_shot_inpainting/)
-[[paper]](https://arxiv.org/abs/2304.12035)
-[[demo_youtube]](https://www.youtube.com/watch?v=czB3VAwhB0o)
-[[demo_bilibili]](https://player.bilibili.com/player.html?aid=358757940&bvid=BV13X4y1n7T8&cid=1206882830&p=1)
+<div align="center">
 
-<div style="text-align: justify"> We present a novel data-efficient generative residual image inpainting method that produces high-quality inpainting results. </div>
+![Teaser](./imgs/teaser.png)
+
+**High-quality few-shot image inpainting with fast convergence and strong generalization.**  
+**The first deep-learning–based *few-shot* inpainting framework.**
+
+</div>
+
+---
+
+## 🔗 Links
+- [[Journal (CVM)]](https://ieeexplore.ieee.org/document/11247819)
+- [[Project Page]](https://longlongaaago.github.io/GRIG_few_shot_inpainting/)
+- [[arXiv]](https://arxiv.org/abs/2304.12035)
+- [[YouTube Demo]](https://www.youtube.com/watch?v=czB3VAwhB0o)
+- [[Bilibili Demo]](https://player.bilibili.com/player.html?aid=358757940&bvid=BV13X4y1n7T8&cid=1206882830&p=1)
+
+---
+
+## 💡 Highlights (Why GRIG?)
+- 🔥 **First deep-learning-based few-shot inpainting method**
+- 📦 **Trainable on 10-shot datasets** with very limited data
+- 🚀 **Fast convergence:** 20k–50k iterations are often enough
+- 💻 **Train with batch size 8 on <12 GB GPUs**
+- 🧠 **Large-scale training also supported** (FFHQ, CelebA-HQ, Paris, Places365)
+- 🎯 **Competitive results with extremely low data requirements**
+
 
 ![Performance](./imgs/teaser.png)
 Visual results of our GRIG models trained on various few-shot settings. “All” means the whole training sets.
@@ -127,6 +148,7 @@ To match FID scores more closely to tensorflow official implementations, I have 
 | <img src="./imgs/Place365_test/000001_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000001_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000001_inpaint.png" width=200 height=200 alt=" "> |
 | <img src="./imgs/Place365_test/000041_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000041_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000041_inpaint.png" width=200 height=200 alt=" "> |
 |          Ground-truth                        |                      Masked image                                | Inpainted  | 
+
 
 
 
