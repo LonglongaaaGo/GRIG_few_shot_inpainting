@@ -93,7 +93,8 @@ root/
 
 ## Bibtex
 - If you find our code useful, please cite our paper:
-  ```@ARTICLE{GRIG,
+  ```bibtex
+  @ARTICLE{GRIG,
   author={Lu, Wanglong and Jiang, Xianta and Jin, Xiaogang and Yang, Yong-Liang and Gong, Minglun and Shi, Kaijie and Wang, Tao and Zhao, Hanli},
   journal={Computational Visual Media}, 
   title={GRIG: Data-efficient generative residual image inpainting}, 
@@ -126,6 +127,7 @@ To match FID scores more closely to tensorflow official implementations, I have 
 | <img src="./imgs/Place365_test/000001_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000001_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000001_inpaint.png" width=200 height=200 alt=" "> |
 | <img src="./imgs/Place365_test/000041_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000041_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000041_inpaint.png" width=200 height=200 alt=" "> |
 |          Ground-truth                        |                      Masked image                                | Inpainted  | 
+
 
 
 
