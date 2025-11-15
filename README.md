@@ -93,8 +93,7 @@ root/
 
 ## Bibtex
 - If you find our code useful, please cite our paper:
-  ```
- @ARTICLE{GRIG,
+  ```@ARTICLE{GRIG,
   author={Lu, Wanglong and Jiang, Xianta and Jin, Xiaogang and Yang, Yong-Liang and Gong, Minglun and Shi, Kaijie and Wang, Tao and Zhao, Hanli},
   journal={Computational Visual Media}, 
   title={GRIG: Data-efficient generative residual image inpainting}, 
