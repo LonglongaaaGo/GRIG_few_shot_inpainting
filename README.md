@@ -94,14 +94,17 @@ root/
 ## Bibtex
 - If you find our code useful, please cite our paper:
   ```
-  @misc{lu2023grig,
-      title={GRIG: Few-Shot Generative Residual Image Inpainting}, 
-      author={Wanglong Lu and Xianta Jiang and Xiaogang Jin and Yong-Liang Yang and Minglun Gong and Tao Wang and Kaijie Shi and Hanli Zhao},
-      year={2023},
-      eprint={2304.12035},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-    }
+ @ARTICLE{GRIG,
+  author={Lu, Wanglong and Jiang, Xianta and Jin, Xiaogang and Yang, Yong-Liang and Gong, Minglun and Shi, Kaijie and Wang, Tao and Zhao, Hanli},
+  journal={Computational Visual Media}, 
+  title={GRIG: Data-efficient generative residual image inpainting}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-33},
+  keywords={Cognition;Training;Iterative methods;Generators;Feature extraction;Transformers;Overfitting;Electronic mail;Decoding;Visualization;image inpainting;iterative reasoning;residual learning;generative adversarial networks},
+  doi={10.26599/CVM.2025.9450408}}
+
   ```
 ## Acknowledgements
 Closely related projects:
@@ -124,4 +127,5 @@ To match FID scores more closely to tensorflow official implementations, I have 
 | <img src="./imgs/Place365_test/000001_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000001_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000001_inpaint.png" width=200 height=200 alt=" "> |
 | <img src="./imgs/Place365_test/000041_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000041_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000041_inpaint.png" width=200 height=200 alt=" "> |
 |          Ground-truth                        |                      Masked image                                | Inpainted  | 
+
 
