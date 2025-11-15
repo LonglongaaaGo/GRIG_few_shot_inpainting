@@ -1,5 +1,5 @@
 # 🎨 GRIG: Data-efficient Generative Residual Image Inpainting (2025 CVM)
-Official PyTorch implementation of **GRIG**, published in **Computational Visual Media (IF 17.3)**.
+Official PyTorch implementation of **GRIG**, published in **Computational Visual Media (IF 18.3)**.
 
 <div align="center">
 
@@ -141,6 +141,7 @@ To match FID scores more closely to tensorflow official implementations, I have 
 | <img src="./imgs/Place365_test/000001_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000001_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000001_inpaint.png" width=200 height=200 alt=" "> |
 | <img src="./imgs/Place365_test/000041_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000041_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000041_inpaint.png" width=200 height=200 alt=" "> |
 |          Ground-truth                        |                      Masked image                                | Inpainted  | 
+
 
 
 
