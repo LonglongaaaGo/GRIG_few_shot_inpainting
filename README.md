@@ -1,11 +1,11 @@
 # GRIG: Data-efficient generative residual image inpainting
-Official PyTorch implementation of GRIG, publised on [[Computational Visual Media Journal]](https://link.springer.com/journal/41095) (IF 17.3, in press).
+Official PyTorch implementation of GRIG, published on Computational Visual Media Journal (IF 17.3).
 
+[[Computational Visual Media Journal]](https://ieeexplore.ieee.org/document/11247819)
 [[Homepage]](https://longlongaaago.github.io/GRIG_few_shot_inpainting/)
 [[paper]](https://arxiv.org/abs/2304.12035)
 [[demo_youtube]](https://www.youtube.com/watch?v=czB3VAwhB0o)
 [[demo_bilibili]](https://player.bilibili.com/player.html?aid=358757940&bvid=BV13X4y1n7T8&cid=1206882830&p=1)
-[![Page Views Count](https://badges.toozhao.com/badges/01JDD95R1HARQS3HE40TTBHCQQ/green.svg)](https://badges.toozhao.com/stats/01JDD95R1HARQS3HE40TTBHCQQ "Get your own page views count badge on badges.toozhao.com")
 
 <div style="text-align: justify"> We present a novel data-efficient generative residual image inpainting method that produces high-quality inpainting results. </div>
 
@@ -127,6 +127,7 @@ To match FID scores more closely to tensorflow official implementations, I have 
 | <img src="./imgs/Place365_test/000001_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000001_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000001_inpaint.png" width=200 height=200 alt=" "> |
 | <img src="./imgs/Place365_test/000041_gt.png"  width=200 height=200 alt="Ground-truth"> | <img src="./imgs/Place365_out/000041_masked.png" width=200 height=200 alt="Masked "> | <img src="./imgs/Place365_out/000041_inpaint.png" width=200 height=200 alt=" "> |
 |          Ground-truth                        |                      Masked image                                | Inpainted  | 
+
 
 
 
