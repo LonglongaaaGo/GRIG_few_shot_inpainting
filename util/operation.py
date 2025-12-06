@@ -504,7 +504,8 @@ class ImageFolder(Dataset):
         img_names.sort()
         frame = []
         for i in range(len(img_names)):
-            image_path = os.path.join(self.root, img_names[i])
+            # image_path = os.path.join(self.root, img_names[i])
+			image_path = img_names[i]
             if image_path[-4:] == '.JPG' or image_path[-4:] == '.jpg' or image_path[-4:] == '.png' or image_path[
                                                                                                       -5:] == '.jpeg':
                 frame.append(image_path)
@@ -691,7 +692,8 @@ class ImageFolderWithEdge(Dataset):
         img_names.sort()
         frame = []
         for i in range(len(img_names)):
-            image_path = os.path.join(self.root, img_names[i])
+            # image_path = os.path.join(self.root, img_names[i])
+			image_path = img_names[i]
             if image_path[-4:] == '.JPG' or image_path[-4:] == '.jpg' or image_path[-4:] == '.png' or image_path[
                                                                                                       -5:] == '.jpeg':
                 frame.append(image_path)
